@@ -1,0 +1,182 @@
+.header {
+  background-image: url("original-cans.img/cans-bg1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.8;
+  position: relative
+}
+.header-topic{
+    background-image: url("https://blog.watatanabe.com/wp/wp-content/uploads/2019/10/IMG_0247-1024x575.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.8;
+  position: relative
+}
+.navbar {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+}
+.logo h3{
+  color: #fff;
+  padding-left: 15px;
+  padding-top:10px;
+  
+}
+.logo a{
+  text-decoration: none;
+  color: #fff;
+}
+.nav-color {
+  background-color: red;
+  opacity: 1 !important;
+}
+
+.subTitle {
+  position: absolute;
+ top: 50%;
+ left: 40%;
+ text-align: center;
+}
+.subTitle span{
+  color: red;
+}
+.subTitle h1{
+  color: red;
+}
+.subTitle h3{
+  text-decoration: none #000;
+}
+@media(max-width: 500px){
+  .subTitle h1{
+    font-size: 25px;
+  }
+  .subTitle h3{
+    font-size: 15px
+  }
+  .footer-nav-link{
+    font-size: 5px;
+    padding: 0px;
+  }
+}
+.Top {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: flex-end;
+  text-align: center
+}
+
+.overview-img {
+  width: 95%;
+
+}
+
+.nav {
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.nav-item {}
+
+#nav-bar .nav-link {
+  color: white;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.headline {
+  color: #FF3366;
+  margin: 20px 0px 20px 0px;
+}
+
+.overview {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.leader .philo .cycle {
+  padding-left: 10px;
+}
+
+.headline-record {
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.carousel{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline-news {
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.record-slide {
+
+}
+
+.footer-nav-item {
+  list-style: none;
+  border-left: solid 1px #000;
+  opacity: 0.8
+}
+
+.footer-nav {
+  margin-top: 20px;
+  padding: 20px 0px 20px 0px;
+  background-color: green;
+  text-align: center; 
+}
+
+.footer-navbar {
+  display: flex;
+  text-align: center;
+  flex-wrap:wrap;
+}
+
+.footer-nav-link {
+  padding: 0px 10px;
+ color: #fff;
+ text-decoration: none;
+ margin-top: 5px
+}
+
+small {
+  padding: 20px 0px 20px 0px;
+  color: #fff;
+  background-color: red;
+  margin: 0px;
+  display: block ;
+  text-align:center;
+}
+.member-content{
+  text-align: center
+}
+.memberimg{
+  display: block
+}
+.member-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.report-content{
+  text-align: center;
+}
+.scroll{
+  margin-top: 10px;
+}
